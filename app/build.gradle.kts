@@ -52,6 +52,8 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
+    testImplementation("org.mockito:mockito-core:5.11.0")
+
     implementation (libs.glide)
     implementation (libs.gson)
 }
